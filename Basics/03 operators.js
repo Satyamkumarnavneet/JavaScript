@@ -10,11 +10,16 @@ console.log(isGrater);
 
 // Calculate discount percentage
 
-var sellingPrice = 199;
-var listingPrice = 799;
+var sellingPrice = 119990;
+var listingPrice = 113490;
 
 var discountPercentage = ((listingPrice - sellingPrice) / listingPrice) * 100;
 console.log("Discount percentage is : " + discountPercentage);
 
 displayDiscountPercentage = Math.round(discountPercentage);
 console.log(displayDiscountPercentage + " % off");
+
+console.log(typeof discountPercentage);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
