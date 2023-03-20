@@ -4,8 +4,9 @@ console.log(this);
 
 var game = "ludo";
 
-function sayName(){
-    var name = "Satyam";
-    console.log(this);
-}
-sayName();
+// function sayName(){
+//     var name = "Satyam";
+//     console.log(this);
+// }
+
+// sayName();
